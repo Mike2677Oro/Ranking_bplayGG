@@ -1,0 +1,22 @@
+*{
+    background-color: black;
+    color: white;
+
+}
+
+.btnEnviar{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.btnReset{
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+}
+
+#puntos, #nombre{
+    border: white solid;
+}
