@@ -41,9 +41,9 @@ function mostrarRanking() {
     // Muestra los puntajes en la tabla
     puntajes.forEach((puntaje, index) => {
         const fila = `<tr>
-                        <td>${index + 1}</td>
+                        <td class='indice'>${index + 1}</td>
                         <td>${puntaje.nombre}</td>
-                        <td>${puntaje.puntos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}</td>
+                        <td class='puntos'>${puntaje.puntos.toLocaleString('es-ES', { minimumFractionDigits: 0 })}</td>
                      </tr>`;
         rankingBody.innerHTML += fila;
     });

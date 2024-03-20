@@ -4,25 +4,31 @@
     align-items: center;
 }
 
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
 
 .rankingDe{
     color: white;
-    font-family: sans-serif;
+    font-family: gotham;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
-    left: 53%;
-    bottom: 80px;
+    margin: 3% auto 5px auto;
+    text-align: center;
     
 }
 .ganadores{
     color: #30D87B;
-    font-family: sans-serif;
+    font-family: gotham;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
-    left: 53%;
-    bottom: 80px;
+    margin: 2% auto 2% auto;
+    text-align: center;
+
 }
 
 .table{
@@ -30,45 +36,83 @@
     font-size: 20px;
     position: relative;
     bottom: 80px;
-    left: 42%;
+    margin: 3% auto 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
 }
 
 
-.lgobplay{
-    position: relative;
-    left: 50%;
-    margin-top: 20px;
-}
-.lgoGG{
-    position: relative;
-    top: 70px;
-    left: 32%;
-}
 
 .encende{
     font-family: sans-serif;
     font-weight: bold;
     color: #30D87B;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
-    left: 50%;
-    bottom: 30px;
+    margin: 0 auto 2% auto;
+    text-align: center;
+
 }
+
+
+@font-face {
+    font-family: gotham;
+    src: url("../Fonts/Gotham-Black.otf");
+}
+
+
 
 .footerLogo{
     position: relative;
-    left: 50%;
+    margin: 0 auto;
+    text-align: center;
+    top: 0%;
     bottom: 30px;
+    font-size: 60px;
+    font-family: gotham;
 }
 
 .table {
     border-collapse: separate;
-    border-spacing: 15px;
+    border-spacing: 30px;
 }
 
 .table th {
-    padding-right: 50px;
+    padding: 0 auto;
+    font-size: larger;
+    margin: 0 2%;
+    text-align: left;
 }
+
+.table td {
+    padding: 0 auto;;
+    font-size: 25px;
+    margin: 0 2%
+}
+
+.puntos {
+    text-align: right;
+}
+
+.indice {
+    text-align: center;
+}
+
 
 body{
     width: 1280px;
